@@ -1,6 +1,8 @@
 # 🎨 Generador de Paletas de Colores
 Una aplicación web moderna e interactiva que genera paletas de colores aleatorias en formatos HEX y HSL, y funciona perfectamente en todos los dispositivos.
 
+    *visita el sitio*  **https://sergioojeda349-dev.github.io/ProyectoM1_SergioOjeda-/
+
 ## ✨ Características Principales
 
 •
@@ -59,9 +61,9 @@ generador-paletas/
 
 ## 🚀 Cómo Empezar
 
-1 • **Clonar el repositorio:** git clone https://
+1 • **Clonar el repositorio:** git clone https://github.com/sergioojeda349-dev/ProyectoM1_SergioOjeda-
 
-2 • **Ingresar a la carpeta del proyecto:**
+2 • **Ingresar a la carpeta del proyecto:** ProyectoM1_SergioOjeda-
 
 3 • **Abrir el archivo index.html en el navegador**.
 
@@ -76,6 +78,7 @@ Paso a Paso
     •6 colores: Se distribuyen en dos filas
 
     •8 colores: Se distribuyen en dos filas de 4
+
 ![alt text](color.png)
 
 2. **Elige el formato de los códigos**
@@ -83,6 +86,7 @@ Paso a Paso
     •HEX: Formato hexadecimal (#RRGGBB)
 
     •HSL: Formato HSL (hue, saturation, lightness)
+
 ![alt text](formato.png)
 
 3. **Haz clic en "🔄 Generar Paleta"**
@@ -90,7 +94,9 @@ Paso a Paso
     •Se generarán colores aleatorios
 
     •Los colores bloqueados se mantienen
+
 ![alt text](generar.png)
+
 4. **Interactúa con las tarjetas**
 
     •📋 Copiar: Copia el código al portapapeles
