@@ -1,7 +1,7 @@
 # 🎨 Generador de Paletas de Colores
 Una aplicación web moderna e interactiva que genera paletas de colores aleatorias en formatos HEX y HSL, y funciona perfectamente en todos los dispositivos.
 
-    *visita el sitio*  **https://sergioojeda349-dev.github.io/ProyectoM1_SergioOjeda-/
+    *visita el sitio*  https://sergioojeda349-dev.github.io/ProyectoM1_SergioOjeda-/
 
 ## ✨ Características Principales
 
