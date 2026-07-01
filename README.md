@@ -76,21 +76,21 @@ Paso a Paso
     •6 colores: Se distribuyen en dos filas
 
     •8 colores: Se distribuyen en dos filas de 4
-
+![alt text](color.png)
 
 2. **Elige el formato de los códigos**
 
     •HEX: Formato hexadecimal (#RRGGBB)
 
     •HSL: Formato HSL (hue, saturation, lightness)
-
+![alt text](formato.png)
 
 3. **Haz clic en "🔄 Generar Paleta"**
 
     •Se generarán colores aleatorios
 
     •Los colores bloqueados se mantienen
-
+![alt text](generar.png)
 4. **Interactúa con las tarjetas**
 
     •📋 Copiar: Copia el código al portapapeles
