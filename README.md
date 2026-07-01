@@ -73,21 +73,19 @@ Paso a Paso
 
 1. **Selecciona el tamaño de la paleta**
 
-    •6 colores: Se distribuyen en una fila
+    •6 colores: Se distribuyen en dos filas
 
     •8 colores: Se distribuyen en dos filas de 4
 
-![alt text](image.png)
 
 2. **Elige el formato de los códigos**
 
     •HEX: Formato hexadecimal (#RRGGBB)
 
     •HSL: Formato HSL (hue, saturation, lightness)
-![alt text](formato.png)
+
 
 3. **Haz clic en "🔄 Generar Paleta"**
-![alt text](generar.png)
 
     •Se generarán colores aleatorios
 
