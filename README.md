@@ -1,7 +1,7 @@
-# 🎨 Generador de Paletas de Colores
+# 🎨 Generador de Paletas de Colores by Colorfly Studio
 Una aplicación web moderna e interactiva que genera paletas de colores aleatorias en formatos HEX y HSL, y funciona perfectamente en todos los dispositivos.
 
-    *visita el sitio*  **https://sergioojeda349-dev.github.io/ProyectoM1_SergioOjeda-/
+**visita el sitio** **    https://sergioojeda349-dev.github.io/ProyectoM1_SergioOjeda-/
 
 ## ✨ Características Principales
 
@@ -29,36 +29,8 @@ CSS3
 JavaScript
 
 ## 📁 Estructura del Proyecto
-generador-paletas/
 
-├── assets
-
-        |──algunos docs-css.md
-        |                   ├──assets/practicacss.png 
-        |                   ├──assets/practica2css.png 
-        |                   └──assets/practica3css.png 
-        ├──algunos docs-js.md   
-        │                   ├──assets/practica js.png 
-        |                   ├──assets/practicas js.png 
-        |                   └──assets/practicas js2.png 
-        |            
-        └──prompt IA.md
-                        ├──assets/prompt m1.png 
-                        ├──assets/prompt 2.png 
-                        └──assets/prompt 3.png 
-
-├── css
-    
-    └── styles.css
-
-├── js
-
-    └── script.js
-
-├── index.html
-
-└── README.md
-
+![alt text](assets/imges/Estructura.png)
 ## 🚀 Cómo Empezar
 
 1 • **Clonar el repositorio:** git clone https://github.com/sergioojeda349-dev/ProyectoM1_SergioOjeda-
@@ -79,7 +51,7 @@ Paso a Paso
 
     •8 colores: Se distribuyen en dos filas de 4
 
-![alt text](color.png)
+![alt text](assets/imges/color.png)
 
 2. **Elige el formato de los códigos**
 
@@ -87,7 +59,7 @@ Paso a Paso
 
     •HSL: Formato HSL (hue, saturation, lightness)
 
-![alt text](formato.png)
+![alt text](assets/imges/formato.png)
 
 3. **Haz clic en "🔄 Generar Paleta"**
 
@@ -95,7 +67,7 @@ Paso a Paso
 
     •Los colores bloqueados se mantienen
 
-![alt text](generar.png)
+![alt text](assets/imges/generar.png)
 
 4. **Interactúa con las tarjetas**
 
@@ -108,6 +80,13 @@ Paso a Paso
     •Notificaciones Toast confirman cada acción
 
     •El botón de copiar cambia a verde momentáneamente
+
+6. **Se agrego botones**
+
+    •Ir al comienzo
+    
+    •Contacto
+  ![alt text](assets/imges/botoncontacto.png)  
 
 ## 📈 Próximas mejoras
 🌈 Selector de colores manual.
