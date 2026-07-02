@@ -81,12 +81,16 @@ Paso a Paso
 
     •El botón de copiar cambia a verde momentáneamente
 
-6. **Se agrego botones**
+6. **Se agregaron botones**
 
     •Ir al comienzo
     
     •Contacto
+
   ![alt text](assets/imges/botoncontacto.png)  
+
+  ## 📖 Prompt utilizados con la IA hacer clic abajo
+  [Ver documentación](assets/promptIA)
 
 ## 📈 Próximas mejoras
 🌈 Selector de colores manual.
@@ -105,7 +109,7 @@ Paso a Paso
 
 Creado con ❤️ por Sergio Ojeda
 
-desarrollador Full Stack en formacion.
+desarrollador Full Stack en formación.
 
 
 

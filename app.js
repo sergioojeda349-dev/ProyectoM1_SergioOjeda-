@@ -153,7 +153,18 @@ function generarPaleta() {
     const tamanio = parseInt(document.getElementById('tamanio').value);
     const formato = document.getElementById('formato').value;
     const contenedorPaleta = document.getElementById('paleta');
+    // PASO 1: PRIMERO, leer los colores bloqueados ANTES de limpiar
+    const tarjetasExistentes = document.querySelectorAll('.color-card');
+    const coloresBloqueadosPorPosicion = [];
 
+    tarjetasExistentes.forEach((tarjeta, index) => {
+        const color = tarjeta.getAttribute('data-color');
+        if (coloresBloqueados[color]) {
+            coloresBloqueadosPorPosicion[index] = color;
+        }
+    });
+
+    
     // Limpiar contenedor anterior
     contenedorPaleta.innerHTML = '';
 
@@ -161,25 +172,24 @@ function generarPaleta() {
     const colores = [];
     for (let i = 0; i < tamanio; i++) {
         // Verificar si hay un color bloqueado en esa posición
-        const tarjetasExistentes = document.querySelectorAll('.color-card');
-        if (i < tarjetasExistentes.length) {
-            const tarjetaExistente = tarjetasExistentes[i];
-            const colorExistente = tarjetaExistente.getAttribute('data-color');
-            if (coloresBloqueados[colorExistente]) {
-                // Si está bloqueado, mantener el color
-                colores.push(colorExistente);
-                continue;
-            }
-        }
-        
-        let color;
-        if (formato === 'hex') {
-            color = generarColorHEX();
+        if (coloresBloqueadosPorPosicion[i]) {
+            // Si está bloqueado, mantener el color
+            colores.push(coloresBloqueadosPorPosicion[i]);                                
+            
         } else {
-            color = generarColorHSL();
+            // Si no está bloqueado, generar uno nuevo
+            let color;
+            if(formato ==='hex') {
+                color = generarColorHEX();
+                
+            } else {
+                color = generarColorHSL();
+            }
+            colores.push(color);
+
         }
-        colores.push(color);
-    }
+        }
+    
 
     // Agregar clase según tamaño
     contenedorPaleta.classList.remove('paleta-6', 'paleta-8');
